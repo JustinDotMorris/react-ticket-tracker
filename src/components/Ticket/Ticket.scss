@@ -1,0 +1,44 @@
+.card{
+    // background-color: plum;
+    background-color: #202023;
+    width: 20rem;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: rgb(209, 209, 209);
+    
+    .card__counterContainer{
+        // background-color: rgb(235, 177, 108);
+        background-color: rgb(41 42 45);
+        margin: 0.5rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border-radius: 1rem;
+    }
+    .card__buttonContainer{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1rem 0 0 0;
+        .card__button{
+            width: 3rem;
+            height: 3rem;
+            font-size: 2rem;
+            border-radius: 1rem;
+            border: solid 0;
+        }
+        .card__plusButton{
+            background-color: rgba(0, 128, 0, 0.582);
+
+        }
+        .card__minusButton{
+            background-color: rgba(255, 0, 0, 0.514);
+
+        }
+        
+    }
+    
+}
+
